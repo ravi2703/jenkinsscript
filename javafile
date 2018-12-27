@@ -1,10 +1,10 @@
 node{
     
-    stage('maha stage1   mygitclone'){
+    stage('rak stage1   mygitclone'){
     git 'https://github.com/ravi2703/mahalogin.git'
     }
     
-    stage('maha stage2   maven gools'){
+    stage('ravi stage2   maven gools'){
     sh 'mvn install' 
    }
 }
